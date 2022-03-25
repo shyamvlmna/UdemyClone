@@ -1,0 +1,245 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sf pro display,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;list-style: none;
+}
+body{
+  
+}
+.containerMain{
+    background-color: white;
+    padding: 72px 290px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    width: 1919px;
+    background-color: white;
+    border-bottom: 1px solid #e3e3e3;
+    position: fixed;
+    z-index: 1;
+}
+#logo{
+    min-block-size: -webkit-fill-available;
+    padding: 16px;
+    width: 117px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.header a{
+text-decoration: none;
+color: black;
+}
+.header button{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.header input{
+    width: 1100px;
+    border: 1px solid black;
+    height: 46px;
+    border-radius: 30px;
+    margin-left: 35px;
+    
+}
+.header :-ms-input-placeholder{
+    margin-left: 12px;
+}
+.header i{
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 12px;
+}
+
+
+.navBar{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+   
+}
+.navBar div{
+margin-left: 17px;
+}
+.navBar a:hover{
+    color: blue;
+}
+.flashImg{
+    position: relative;
+}
+
+.flashText{
+    padding: 20px;
+    position: absolute;
+    margin-top: -326px;
+    background-color: white;
+    width: 440px;
+    height: 150px;
+    border: 1px solid #dcdddf;
+    margin-left: 63px;
+    line-height: 1.2;
+}
+.courseSelect{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.courseSelect a{
+    display: inline;
+    text-decoration: none;
+    color: #6a6f73;
+    font-weight: 700;
+
+}
+.courseSelect a:hover{
+    color: black;
+}
+.courseSelect li{
+    margin-right: 25px;
+}
+.courseTitle{
+    line-height: 1.5;
+}
+.courseTitle h1{
+    font-weight: 700;
+    font-size: 40px;
+
+}
+.courseTitle p{
+    font-weight: 100;
+    font-size: 23px;
+}
+.courseCards{
+    padding: 20px 24px;
+    border: 1px solid #6a6f73;
+    margin-top: 20px;
+}
+.courseCards p{
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 1.3;
+    margin-top: 20px;
+}
+.courseCards button{
+    margin-top: 20px;
+    background-color: white;
+    border: 2px solid #6a6f73;
+    height: 40px;
+    width: 118px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.courseCards button:hover{
+    background-color: #dcdddf69;
+}
+.cards{
+    display: flex;
+    flex-flow: row ;
+    margin-top: 25px;
+    justify-content: space-around;
+}
+.card p{
+    font-size: 12px;
+    line-height: 1.3;
+   
+}
+.card h4{
+    font-size: 17px;
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+margin-top: 10px;
+}
+.courseCards h1{
+    margin-top: 30px;
+}
+
+
+.studentViewing{
+    margin-top: 60px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 200px;
+    cursor: pointer; 
+    padding: 1px 10px; 
+    justify-content: center;  
+    align-items: stretch;
+    overflow: hidden;
+    transition: transform .5s ease;
+}
+  .card:hover{
+    transform: scale(1.1);
+  }
+
+
+  .scardTitle{
+font-size: 25px;
+  }
+
+  .scards{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+  }
+  .scard h4{
+      margin-top: 10px;
+  }
+  .scard{
+    overflow: hidden;
+    transition: transform .3s ease;
+  }
+  .scard:hover{
+    transform: scale(1.1);
+  }
+
+  .topCategories h1{
+    font-size: 25px;
+    margin-top: 45px;
+  }
+  .categoires{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+margin-top: 20px;
+  }
+
+  .categoires .images{
+margin: 10px;
+  }
+  .images img{
+    transition: transform .5s ease;
+    cursor: pointer;
+  }
+  .images h3{
+display: flex;
+justify-content: center;
+  }
+  .images img:hover{
+    transform: scale(1.1);
+  }
+footer{
+    height: 295px;
+    background-color: black;
+}
+  .topfoot{
+      display: flex;
+      justify-content: space-between;
+  }
+  .lists{
+      display: flex;
+  }
+  .bottomfoot{
+      display: flex;
+      justify-content: space-between;
+  }
