@@ -224,12 +224,13 @@ margin: 10px;
   .images h3{
 display: flex;
 justify-content: center;
+margin-top: 10px;
   }
   .images img:hover{
     transform: scale(1.1);
   }
 footer{
-    height: 295px;
+    height: 370px;
     background-color: black;
 }
   .topfoot{
@@ -238,8 +239,36 @@ footer{
   }
   .lists{
       display: flex;
+      margin: 80px;
+      color: white;
   }
   .bottomfoot{
+    padding: 0px 95px;
       display: flex;
+      color: white;
       justify-content: space-between;
   }
+  .bottomfoot img{
+      width: 110px;
+      cursor: pointer;
+  }
+  .topfoot button{
+      background-color: black;
+      color: white;
+      border: 1px solid white;
+      width: 139px;
+    height: 50px;
+    margin: 36px;
+    cursor: pointer;
+  }
+  .lists .list{
+display: flex;
+margin-right: 85px;
+  }
+  .list li{
+      margin-top: 12px;
+      cursor: pointer;
+  }
+
+  
+ 
